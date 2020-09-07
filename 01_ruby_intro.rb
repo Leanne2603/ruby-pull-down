@@ -12,3 +12,13 @@
 
 # Once you are able to output the correct output when running your code, try finding a way to get input from a user when they run your code. 
 # Then convert that input to a new "th" replaced string
+
+
+# Your code here
+my_string = "I was stranded in the Mississippi River"
+if my_string.include? "s"
+my_string.gsub!(/s/, "th")
+end
+puts my_string
+
+
